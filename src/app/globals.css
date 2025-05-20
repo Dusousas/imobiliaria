@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-BlueBG: #E8EFFF;
+  --color-BlueTITLE: #2D3954;
+  --color-BlueTEXT: #4E5C79;
+  --color-BTN: #1E73BE;
+  --font-Jost: "Jost", sans-serif;
+}
+
+body {
+  background-color: white;
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.maxW {
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Jost", sans-serif;
+  color: #2D3954;
+}
+
+h4 {
+  font-family: "Jost", sans-serif;
+}
+
+p,
+h6 {
+  font-family: "Mulish", sans-serif;
+  color: #4E5C79;
+}
+
+h5 {
+  font-family: "Mulish", sans-serif;
+  color: #1E73BE;
+}
+
+.bgHome {
+  background-image: url('/home-1.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
