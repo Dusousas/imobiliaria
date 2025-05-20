@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import { IoResize } from 'react-icons/io5';
 import { MdBathroom, MdBedroomParent } from 'react-icons/md';
+import Link from 'next/link';
 
 export default function ExploreCardsSell() {
     return (
@@ -36,7 +37,7 @@ export default function ExploreCardsSell() {
                     <div className='border-t mx-auto mt-4 border-BlueBG'></div>
                     <div className='flex justify-between items-center py-4 px-4'>
                         <p className='text-xl'>Av. Nações Unidas, 123</p>
-                        <a href='/slug' className='bg-BTN text-white px-3 py-2 rounded-2xl'>Ver mais</a>
+                        <Link href='/slug' className='bg-BTN text-white px-3 py-2 rounded-2xl'>Ver mais</Link>
                     </div>
                 </div>
 
@@ -67,7 +68,7 @@ export default function ExploreCardsSell() {
                     <div className='border-t mx-auto mt-4 border-BlueBG'></div>
                     <div className='flex justify-between items-center py-4 px-4'>
                         <p className='text-xl'>Av. Nações Unidas, 123</p>
-                        <a href='/slug' className='bg-BTN text-white px-3 py-2 rounded-2xl'>Ver mais</a>
+                        <Link href='/slug' className='bg-BTN text-white px-3 py-2 rounded-2xl'>Ver mais</Link>
                     </div>
                 </div>
 
@@ -98,7 +99,7 @@ export default function ExploreCardsSell() {
                     <div className='border-t mx-auto mt-4 border-BlueBG'></div>
                     <div className='flex justify-between items-center py-4 px-4'>
                         <p className='text-xl'>Av. Nações Unidas, 123</p>
-                        <a href='/slug' className='bg-BTN text-white px-3 py-2 rounded-2xl'>Ver mais</a>
+                        <Link href='/slug' className='bg-BTN text-white px-3 py-2 rounded-2xl'>Ver mais</Link>
                     </div>
                 </div>
 

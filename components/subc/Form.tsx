@@ -1,5 +1,6 @@
 "use client";
 
+import Link from 'next/link';
 import React from 'react';
 
 export default function Form() {
@@ -23,7 +24,7 @@ export default function Form() {
                     <textarea className='border border-gray-200 bg-gray-100 px-4 w-full resize-none py-3 outline-0' placeholder='Sua mensagem' rows={5} name="" id=""></textarea>
                 </article>
                 <div className='mt-4 flex justify-center lg:justify-start'>
-                    <a className='bg-[#E7FAF4] border border-[#A5ECD8] font-semibold text-BTN px-3 py-4 mt-4' href="">Fale com um especialista</a>
+                    <Link className='bg-[#E7FAF4] border border-[#A5ECD8] font-semibold text-BTN px-3 py-4 mt-4' href="">Fale com um especialista</Link>
                 </div>
 
 
